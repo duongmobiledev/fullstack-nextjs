@@ -1,0 +1,96 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": [],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": [
+        "public/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@containers/*": [
+        "src/containers/*"
+      ],
+      "@designs/*": [
+        "src/designs/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@HOC/*": [
+        "src/HOC/*"
+      ],
+      "@icons": [
+        "src/icons/index"
+      ],
+      "@pages/*": [
+        "src/redux/pages/*"
+      ],
+
+      "@redux/*": [
+        "src/redux/*"
+      ],
+      "@typings": [
+        "src/typings/index"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@routes": [
+        "src/routes/index"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx", ],
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+  ]
+}
